@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Inglés</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div style="text-align:center;">
+    <h1>Formulario en Inglés</h1>
+  </div>
+  <hr>
+  <div class="container">
+    <h4><b><a href="index.html">Ir a HOME</a></b></h4> 
+  </div>
+  <div class="container-form">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" name="phone">
+  
+      <label for="country">Select the Subject</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Message</label>
+      <textarea id="subject" name="subject" style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+</body>
+</html>
